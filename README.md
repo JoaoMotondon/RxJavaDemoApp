@@ -50,3 +50,6 @@ Here is a list of all covered examples on the demo app and the articles on which
     -  [Typing Indicator](http://androidahead.com/2017/04/03/typing-indicator-using-rxjava/) (1 example)  
     -  [Drawing Example](http://choruscode.blogspot.com.br/2014/07/rxjava-for-ui-events-on-android-example.html) (1 example) - This example shows how to react to mouse events as well as listen for SeekBar and menu item click events by using RxBindings library.  
     -  Broadcast System Status (1 example) - This example shows how to listen for broadcast system messages by using RxBroadcast library.
+    
+# License
+This project is licensed under the Apache-2.0 - see the [LICENSE](LICENSE) file for details
