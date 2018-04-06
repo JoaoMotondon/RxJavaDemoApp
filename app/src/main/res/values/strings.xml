@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RxJavaDemoApp</string>
+    <string name="example_list_title">RxJava (100+ Examples Pack)</string>
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_collect_tolist_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This example shows some mathematical and aggregate operators" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Emitted numbers:"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_emitted_numbers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Result"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp" />
+
+            <Button
+                android:id="@+id/btn_start_sum_operator_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Sum Operator Test "
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_start_max_operator_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Max Operator Test "
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_start_collect_with_empty_statefactory_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Collect Test (w/ empty stateFactory)"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_start_collect_test_with_statefactory_with_values"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Collect Test (w/ stateFactory with values) "
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_start_reduce_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Reduce Test (max)"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_start_reduce_with_global_seed_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Reduce w/Global Seed Test"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_start_reduce_with_null_seed_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Reduce w/Global Null Test"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

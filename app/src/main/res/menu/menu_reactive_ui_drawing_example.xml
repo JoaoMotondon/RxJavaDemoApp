@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/blue"
+        android:title="Blue"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/yellow"
+        android:title="Yellow"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/red"
+        android:title="Red"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/green"
+        android:title="Green"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/black"
+        android:title="Black"
+        android:checkable="true"
+        android:checked="true"
+        app:showAsAction="never" />
+
+</menu>

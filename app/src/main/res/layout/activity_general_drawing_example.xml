@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/reactive_simple_paint"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_brush"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/brush" />
+
+            <ImageButton
+                android:id="@+id/btn_eraser"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eraser" />
+
+            <ImageButton
+                android:id="@+id/btn_new"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/new_file" />
+
+            <SeekBar
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:max="20"
+                android:progress="3"
+                android:id="@+id/brush_size" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

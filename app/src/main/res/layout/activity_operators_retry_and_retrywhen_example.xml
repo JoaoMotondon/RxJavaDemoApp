@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_example_7_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="This example shows how to use retry() and retryWhen() operators to intercept source observable errors." />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:text="Emitted numbers:"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_emitted_numbers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Result"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|bottom"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_retry_forever"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Retry Forever [retry()]"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        android:id="@+id/btn_retry_when_forever"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Retry Forever [retryWhen()]"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        android:id="@+id/btn_retry_when_no_flatMap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Retry [retryWhen()] with no flatMap"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        android:id="@+id/btn_retry_when_three_times"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Retry 3 Times [retryWhen()]"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        android:id="@+id/btn_retry_when_three_times_with_zipwith"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Retry 3 Times [retryWhen()] - zipWith()"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        android:id="@+id/btn_retry_when_with_exponential_backoff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RetryWhen with exponential backoff"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        android:id="@+id/btn_stop_subscription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stop Subscription"
+                        android:textAllCaps="false" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

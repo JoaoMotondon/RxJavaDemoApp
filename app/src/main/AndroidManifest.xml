@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.motondon.rxjavademoapp">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.motondon.rxjavademoapp.view.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.generalexamples.ServerPollingExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.generalexamples.ServerPollingAfterDataProcessingExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.operators.ConcatMapAndFlatMapExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.operators.RetryExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.main.ExampleByCategoryActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.operators.ConditionalOperatorsExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.operators.AggregateOperatorsExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.operators.FilteringExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.operators.MoreFilteringOperatorsExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.operators.TimeoutExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.operators.ErrorHandlingExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.operators.TransformingOperatorsExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.operators.CombiningObservablesExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.operators.JoinExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.hotobservables.HotObservableCacheExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.hotobservables.HotObservableConnectExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.hotobservables.HotObservableRefCountExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.hotobservables.HotObservableReplayExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.backpressure.BackpressureBasicExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.backpressure.BackpressureReactivePullExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.backpressure.BackpressureSpecificOperatorsExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+
+        <activity
+            android:name=".view.backpressure.BackpressureManualRequestExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.parallelization.ParallelizationExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.generalexamples.TypingIndicatorExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.generalexamples.DrawingExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+        <activity
+            android:name=".view.generalexamples.BroadcastSystemStatusExampleActivity"
+            android:parentActivityName="com.motondon.rxjavademoapp.view.main.ExampleByCategoryActivity"
+            />
+
+
+    </application>
+
+</manifest>
