@@ -1,5 +1,7 @@
-# RxJava for Android (100+ Examples Pack)
+# RxJava for Android (100+ Examples Pack) - &#x1F539;Now in Kotlin!!! &#x1F539;
 This repository is intended to provide in a single place (i.e. a single Android app) over than 100 examples of RxJava for Android which you can use as a reference when dealing with RxJava. 
+
+# **_UPDATE: This project was entirely convert to Kotlin._**
 
 ![](https://user-images.githubusercontent.com/4574670/38424192-a2a65350-3986-11e8-980b-a359764b2e9d.png)
 ![](https://user-images.githubusercontent.com/4574670/38424190-a2611f60-3986-11e8-9f19-8993a905d2bf.png)
