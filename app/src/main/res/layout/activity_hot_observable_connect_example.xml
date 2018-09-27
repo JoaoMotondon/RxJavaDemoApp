@@ -22,7 +22,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_emitted_numbers"
+                android:id="@+id/tvEmittedNumbers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
@@ -35,7 +35,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_result_first_subscription"
+                android:id="@+id/tvResultFirstSubscription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
@@ -48,13 +48,13 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_result_second_subscription"
+                android:id="@+id/tvResultSecondSubscription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
 
             <Button
-                android:id="@+id/btn_connect"
+                android:id="@+id/btnConnect"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -69,7 +69,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_subscribe_first"
+                    android:id="@+id/btnSubscribeFirst"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -77,7 +77,7 @@
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_subscribe_second"
+                    android:id="@+id/btnSubscribeSecond"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -94,7 +94,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_unsubscribe_first"
+                    android:id="@+id/btnUnsubscribeFirst"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -102,7 +102,7 @@
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_unsubscribe_second"
+                    android:id="@+id/btnUnsubscribeSecond"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -112,7 +112,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/btn_disconnect"
+                android:id="@+id/btnDisconnect"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Disconnect"

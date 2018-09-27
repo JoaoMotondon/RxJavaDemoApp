@@ -33,31 +33,31 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/tv_left_observable_delay"
+                    android:id="@+id/tvLeftObservableDelay"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Left Sequence" />
 
                 <EditText
-                    android:id="@+id/et_left_observable_delay"
+                    android:id="@+id/etLeftObservableDelayBetweenEmission"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/tv_left_observable_delay"
+                    android:layout_toRightOf="@+id/tvLeftObservableDelay"
                     android:text="100"
                     android:inputType="number" />
 
                 <TextView
-                    android:id="@+id/tv_right_observable_delay"
+                    android:id="@+id/tvRightObservableDelay"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/et_left_observable_delay"
+                    android:layout_toRightOf="@+id/etLeftObservableDelayBetweenEmission"
                     android:text="Right Sequence" />
 
                 <EditText
-                    android:id="@+id/et_right_observable_delay"
+                    android:id="@+id/etRightObservableDelayBetweenEmission"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/tv_right_observable_delay"
+                    android:layout_toRightOf="@+id/tvRightObservableDelay"
                     android:text="200"
                     android:inputType="number" />
 
@@ -77,31 +77,31 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/tv_left_window_duration"
+                    android:id="@+id/tvLeftWindowDuration"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Left Windows" />
 
                 <EditText
-                    android:id="@+id/et_left_window_duration"
+                    android:id="@+id/etLeftWindowDuration"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/tv_left_window_duration"
+                    android:layout_toRightOf="@+id/tvLeftWindowDuration"
                     android:text=""
                     android:inputType="number" />
 
                 <TextView
-                    android:id="@+id/tv_right_window_duration"
+                    android:id="@+id/tvRightWindowDuration"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/et_left_window_duration"
+                    android:layout_toRightOf="@+id/etLeftWindowDuration"
                     android:text="Right Window :" />
 
                 <EditText
-                    android:id="@+id/et_right_window_duration"
+                    android:id="@+id/etRightWindowDuration"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/tv_right_window_duration"
+                    android:layout_toRightOf="@+id/tvRightWindowDuration"
                     android:text="0"
                     android:inputType="number" />
 
@@ -121,31 +121,31 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/tv_left_observable_number_of_items_to_be_emitted"
+                    android:id="@+id/tvLeftObservableNumberOfItemsToEmit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Left Observable:" />
 
                 <EditText
-                    android:id="@+id/et_left_observable_number_of_items_to_be_emitted"
+                    android:id="@+id/etLeftObservableNumberOfItemsToEmit"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/tv_left_observable_number_of_items_to_be_emitted"
+                    android:layout_toRightOf="@+id/tvLeftObservableNumberOfItemsToEmit"
                     android:text="5"
                     android:inputType="number" />
 
                 <TextView
-                    android:id="@+id/tv_righ_observable_number_of_items_to_be_emitted"
+                    android:id="@+id/tvRightObservableNumberOfItemsToEmit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/et_left_observable_number_of_items_to_be_emitted"
+                    android:layout_toRightOf="@+id/etLeftObservableNumberOfItemsToEmit"
                     android:text="Right Observable" />
 
                 <EditText
-                    android:id="@+id/et_righ_observable_number_of_items_to_be_emitted"
+                    android:id="@+id/etRightObservableNumberOfItemsToEmit"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/tv_righ_observable_number_of_items_to_be_emitted"
+                    android:layout_toRightOf="@+id/tvRightObservableNumberOfItemsToEmit"
                     android:text="5"
                     android:inputType="number" />
 
@@ -158,7 +158,7 @@
                 android:weightSum="2">
 
                 <Button
-                    android:id="@+id/btn_join_operator_test"
+                    android:id="@+id/btnJoinOperatorTest"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
@@ -167,7 +167,7 @@
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_stop_test"
+                    android:id="@+id/btnStopTest"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
@@ -186,7 +186,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_emitted_numbers"
+                android:id="@+id/tvEmittedNumbers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
@@ -199,7 +199,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_result"
+                android:id="@+id/tvResult"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />

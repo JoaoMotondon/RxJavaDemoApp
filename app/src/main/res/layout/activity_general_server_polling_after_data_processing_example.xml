@@ -25,7 +25,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_server_polling_count"
+            android:id="@+id/tvServerPollingCount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
@@ -40,7 +40,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_local_data_processed"
+            android:id="@+id/tvLocalDataProcessingCount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
@@ -60,28 +60,28 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/btn_process_data_recursively"
+                    android:id="@+id/btnProcessDataRecursively"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAllCaps="false"
                     android:text="Process Data Recursively" />
 
                 <Button
-                    android:id="@+id/btn_process_data_manual_recursion_with_scheduler"
+                    android:id="@+id/btnProcessDataManualRecursionWithScheduler"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAllCaps="false"
                     android:text="Process Data - Manual Recursion (Scheduler)" />
 
                 <Button
-                    android:id="@+id/btn_process_data_manual_recursion_with_repeat_when"
+                    android:id="@+id/btnProcessDataManualRecursionRepeatWhen"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAllCaps="false"
                     android:text="Process Data - Manual Recursion [repeatWhen()]" />
 
                 <Button
-                    android:id="@+id/btn_stop_data_processing"
+                    android:id="@+id/btnStopJobProcessing"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAllCaps="false"

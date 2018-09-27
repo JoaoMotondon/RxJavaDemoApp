@@ -40,7 +40,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/tv_emitted_numbers"
+                    android:id="@+id/tvEmittedNumbers"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="16dp" />
@@ -53,7 +53,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/tv_result"
+                    android:id="@+id/tvResult"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="16dp" />
@@ -73,49 +73,49 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/btn_retry_forever"
+                        android:id="@+id/btnRetryForever"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Retry Forever [retry()]"
                         android:textAllCaps="false" />
 
                     <Button
-                        android:id="@+id/btn_retry_when_forever"
+                        android:id="@+id/btnRetryWhenForever"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Retry Forever [retryWhen()]"
                         android:textAllCaps="false" />
 
                     <Button
-                        android:id="@+id/btn_retry_when_no_flatMap"
+                        android:id="@+id/btnRetryWhenNoFlatMap"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Retry [retryWhen()] with no flatMap"
                         android:textAllCaps="false" />
 
                     <Button
-                        android:id="@+id/btn_retry_when_three_times"
+                        android:id="@+id/btnRetryWhenThreeTimes"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Retry 3 Times [retryWhen()]"
                         android:textAllCaps="false" />
 
                     <Button
-                        android:id="@+id/btn_retry_when_three_times_with_zipwith"
+                        android:id="@+id/btnRetryWhenThreeTimesWithZipWith"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Retry 3 Times [retryWhen()] - zipWith()"
                         android:textAllCaps="false" />
 
                     <Button
-                        android:id="@+id/btn_retry_when_with_exponential_backoff"
+                        android:id="@+id/btnRetryWhenWithExponentialBackoff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="RetryWhen with exponential backoff"
                         android:textAllCaps="false" />
 
                     <Button
-                        android:id="@+id/btn_stop_subscription"
+                        android:id="@+id/btnStopSubscription"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Stop Subscription"

@@ -27,7 +27,7 @@
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/s_test_options"
+            android:id="@+id/sTestOptions"
             android:paddingBottom="16dp"
             style="@style/spinner_style" />
 
@@ -40,7 +40,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_emitted_numbers"
+            android:id="@+id/tvEmittedNumbers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp" />
@@ -53,13 +53,13 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_result"
+            android:id="@+id/tvResult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp" />
 
         <Button
-            android:id="@+id/btn_start_test"
+            android:id="@+id/btnStartTest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Start Test"

@@ -28,7 +28,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_emitted_numbers"
+                android:id="@+id/tvEmittedNumbers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
@@ -41,13 +41,13 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_result"
+                android:id="@+id/tvResult"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
 
             <TextView
-                android:id="@+id/tv_overrun_caption"
+                android:id="@+id/tvOverrunCaption"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Overrun items"
@@ -55,7 +55,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_overrun_numbers"
+                android:id="@+id/tvOverrunNumbers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
@@ -66,28 +66,28 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/btn_onbackpressurebuffer_operator_test"
+                    android:id="@+id/btnOnBackpressureBufferOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="onBackpressureBuffer()"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_onbackpressurebuffer_operator_with_an_action_test"
+                    android:id="@+id/btnOnBackpressureBufferOperatorWithAnActionTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="onBackpressureBuffer() w/Action"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_onbackpressurebuffer_operator_with_an_action_and_a_strategy_test"
+                    android:id="@+id/btnOnBackpressureBufferOperatorWithAnActionAndStrategyTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="onBackpressureBuffer() w/Action and Strategy"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_onbackpressuredrop_operator_test"
+                    android:id="@+id/btnOnBackpressureDropOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="onBackpressureDrop()"

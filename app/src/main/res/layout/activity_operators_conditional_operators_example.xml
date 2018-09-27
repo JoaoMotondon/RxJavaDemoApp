@@ -24,7 +24,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_emitted_numbers"
+            android:id="@+id/tvEmittedNumbers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp" />
@@ -37,7 +37,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_result"
+            android:id="@+id/tvResult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp" />
@@ -53,56 +53,56 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/btn_start_skipwhile_test"
+                    android:id="@+id/btnStartSkipWhileTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start SkipWhile Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_start_skipuntil_test"
+                    android:id="@+id/btnStartSkipUntilTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start SkipUntil Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_start_takewhile_test"
+                    android:id="@+id/btnStartTakeWhileTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start TakeWhile Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_start_takeuntil_test"
+                    android:id="@+id/btnStartTakeUntilTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start TakeUntil Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_start_amb_operator_test"
+                    android:id="@+id/btnStartAmbOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start Amb Operator Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_start_all_operator_test"
+                    android:id="@+id/btnStartAllOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start All Operator Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_start_contains_operator_test"
+                    android:id="@+id/btnStartContainsOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start Contains Operator Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_start_exists_operator_test"
+                    android:id="@+id/btnStartExistsOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start Exists Operator Test"

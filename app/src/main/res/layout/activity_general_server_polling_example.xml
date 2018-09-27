@@ -33,7 +33,7 @@
             android:orientation="vertical">
 
             <android.support.v7.widget.RecyclerView
-                android:id="@+id/my_list"
+                android:id="@+id/mListView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingLeft="2dp"
@@ -57,35 +57,35 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/btn_start_polling_interval"
+                    android:id="@+id/btnStartPollingInterval"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAllCaps="false"
                     android:text="Start Polling - interval()" />
 
                 <Button
-                    android:id="@+id/btn_start_polling_repeat_when_until_job_done"
+                    android:id="@+id/btnStartPollingRepeatWhenUntilJobDone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAllCaps="false"
                     android:text="Start Polling until job done [repeatWhen()]" />
 
                 <Button
-                    android:id="@+id/btn_start_polling_repeat_when_for_three_times"
+                    android:id="@+id/btnStartPollingRepeatWhenForThreeTimes"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAllCaps="false"
                     android:text="Start Polling for three times [repeatWhen()]" />
 
 				<Button
-                    android:id="@+id/btn_start_polling_repeat_when_using_exponential_backoff"
+                    android:id="@+id/btnStartPollingRepeatWhenUsingExponentialBackoff"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAllCaps="false"
                     android:text="Start Polling using exponential backoff [repeatWhen()]" />
 
                 <Button
-                    android:id="@+id/btn_stop_polling"
+                    android:id="@+id/btnStopPolling"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAllCaps="false"

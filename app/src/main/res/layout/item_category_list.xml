@@ -23,7 +23,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/item"
+                android:id="@+id/mCategoryItemName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -31,10 +31,10 @@
                 android:textSize="18sp"/>
 
             <TextView
-                android:id="@+id/item_details"
+                android:id="@+id/mCategoryItemDetails"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/item"
+                android:layout_below="@id/mCategoryItemName"
                 android:paddingLeft="@dimen/activity_horizontal_margin"
                 android:paddingRight="@dimen/activity_horizontal_margin"
                 android:textSize="12sp" />

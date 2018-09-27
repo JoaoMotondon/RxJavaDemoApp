@@ -28,7 +28,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_emitted_numbers"
+                android:id="@+id/tvEmittedNumbers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
@@ -41,7 +41,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_result"
+                android:id="@+id/tvResult"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
@@ -53,7 +53,7 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/btn_subscriber_with_request_method_call_test"
+                    android:id="@+id/btnSubscriberWithRequestMethodCallTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Subscriber with request()"

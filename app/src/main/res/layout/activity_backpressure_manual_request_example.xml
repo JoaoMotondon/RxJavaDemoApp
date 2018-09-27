@@ -28,7 +28,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_emitted_items"
+                android:id="@+id/tvEmittedItems"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
@@ -41,7 +41,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_number_of_requested_items"
+                android:id="@+id/tvNumberOfRequestedItems"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
@@ -54,7 +54,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_result"
+                android:id="@+id/tvResult"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
@@ -74,7 +74,7 @@
                     android:paddingBottom="16dp" />
 
                 <EditText
-                    android:id="@+id/et_number_of_items_to_emit"
+                    android:id="@+id/etNumberOfItemsToEmit"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -82,7 +82,7 @@
                     android:text="20" />
 
                 <Button
-                    android:id="@+id/btn_init_test"
+                    android:id="@+id/btnInitTest"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -105,7 +105,7 @@
                     android:paddingBottom="16dp" />
 
                 <EditText
-                    android:id="@+id/et_number_of_items_to_request"
+                    android:id="@+id/etNumberOfItemsToRequest"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -113,7 +113,7 @@
                     android:text="4" />
 
                 <Button
-                    android:id="@+id/btn_request_items"
+                    android:id="@+id/btnRequestItems"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="Request Items"

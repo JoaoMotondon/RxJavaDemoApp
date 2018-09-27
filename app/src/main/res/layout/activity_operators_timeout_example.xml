@@ -28,7 +28,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_emitted_numbers"
+                android:id="@+id/tvEmittedNumbers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
@@ -41,13 +41,13 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_result"
+                android:id="@+id/tvResult"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
 
             <Button
-                android:id="@+id/btn_start_timeout_operator_test"
+                android:id="@+id/btnStartTimetoutOperatorTest"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
@@ -55,42 +55,42 @@
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_start_timeout_operator_with_second_observable_test"
+                android:id="@+id/btnStartTimetoutOperatorWithSecondObservableTest"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="timeout() (w/ a backup observable)"
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_start_timeout_operator_with_a_function_test"
+                android:id="@+id/btnStartTimetoutOperatorWithFunctionTest"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="timeout() (w/function)"
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_start_timeout_operator_with_a_function_and_a_second_observable_test"
+                android:id="@+id/btnStartTimetoutOperatorWithFunctionAndSecondObservableTest"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="timeout() (w/function and backup observable)"
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_start_timeout_operator_with_a_function_and_a_second_function_test"
+                android:id="@+id/btnStartTimetoutOperatorWithFunctionAndSecondFunctionTest"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="timeout() (w/function and second function)"
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_start_timeout_operator_with_a_function_a_second_function_and_a_second_observable_test"
+                android:id="@+id/btnStartTimetoutOperatorWithFunctionAndSecondFunctionAndSecondObservableTest"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="timeout() (w/func, a sec func and a bkp observable)"
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_start_bonus_test"
+                android:id="@+id/btnStartBonusTest"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Bonus - timeout() and retryWhen()"

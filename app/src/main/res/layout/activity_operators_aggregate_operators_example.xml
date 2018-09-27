@@ -28,7 +28,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_emitted_numbers"
+                android:id="@+id/tvEmittedNumbers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
@@ -41,55 +41,55 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_result"
+                android:id="@+id/tvResult"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
 
             <Button
-                android:id="@+id/btn_start_sum_operator_test"
+                android:id="@+id/btnStartSumOperatorTest"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Start Sum Operator Test "
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_start_max_operator_test"
+                android:id="@+id/btnStartMaxOperatorTest"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Start Max Operator Test "
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_start_collect_with_empty_statefactory_test"
+                android:id="@+id/btnStartCollectWithEmptyStateFactoryTest"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Start Collect Test (w/ empty stateFactory)"
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_start_collect_test_with_statefactory_with_values"
+                android:id="@+id/btnStartCollectTestWithEmptyStateFactoryWithValues"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Start Collect Test (w/ stateFactory with values) "
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_start_reduce_test"
+                android:id="@+id/btnStartReduceTest"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Start Reduce Test (max)"
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_start_reduce_with_global_seed_test"
+                android:id="@+id/btnStartReduceWithGlobalSeedTest"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Start Reduce w/Global Seed Test"
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_start_reduce_with_null_seed_test"
+                android:id="@+id/btnStartReduceWithNullSeedTest"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Start Reduce w/Global Null Test"

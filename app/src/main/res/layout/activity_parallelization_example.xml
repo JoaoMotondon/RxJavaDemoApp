@@ -24,14 +24,14 @@
             android:textStyle="bold" />
 
         <Spinner
-            android:id="@+id/s_test_options"
+            android:id="@+id/sTestOptions"
             style="@style/spinner_style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp" />
 
         <Button
-            android:id="@+id/btn_start_test"
+            android:id="@+id/btnStartTest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Start Test"
@@ -50,7 +50,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_status"
+                android:id="@+id/tvStatus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="16dp" />
@@ -63,7 +63,7 @@
             android:orientation="vertical">
 
             <android.support.v7.widget.RecyclerView
-                android:id="@+id/my_list"
+                android:id="@+id/listResult"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingLeft="2dp"

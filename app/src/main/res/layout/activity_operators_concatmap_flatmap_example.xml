@@ -39,7 +39,7 @@
                     android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/tv_original_emitted_items"
+                    android:id="@+id/tvOriginalEmittedItems"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
                     android:paddingBottom="16dp"/>
@@ -52,7 +52,7 @@
                     android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/tv_flat_map_result"
+                    android:id="@+id/tvFlatMapResult"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
                     android:paddingBottom="16dp"/>
@@ -65,21 +65,21 @@
                     android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/tv_concat_map_result"
+                    android:id="@+id/tvConcatMapResult"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
                     android:layout_marginBottom="50dp"
                     android:paddingBottom="16dp"/>
 
                 <Button
-                    android:id="@+id/btn_flatmap_test"
+                    android:id="@+id/btnFlatMapTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAllCaps="false"
                     android:text="flatMap() Example" />
 
                 <Button
-                    android:id="@+id/btn_concatmap_test"
+                    android:id="@+id/btnConcatMapTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAllCaps="false"

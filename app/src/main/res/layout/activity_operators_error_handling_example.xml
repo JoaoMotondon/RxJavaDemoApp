@@ -24,7 +24,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_emitted_values"
+            android:id="@+id/tvEmittedNumbers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp" />
@@ -37,7 +37,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_result"
+            android:id="@+id/tvResult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp" />
@@ -52,7 +52,7 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/btn_start_unchecked_exception_test"
+                    android:id="@+id/btnStartUncheckedExceptionTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -60,28 +60,28 @@
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_start_checked_exception_test"
+                    android:id="@+id/btnStartCheckedExceptionTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start Checked Exception Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_start_onerrorreturn_operator_test"
+                    android:id="@+id/btnStartOnErrorReturnOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start onErrorReturn() Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_start_onerrorresumenext_operator_test"
+                    android:id="@+id/btnStartOnErrorResumeNextOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start onErrorResumeNext() Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_start_onexceptionresumenext_operator_test"
+                    android:id="@+id/btnStartOnExceptionResumeNextOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start onExceptionResumeNext() Test"

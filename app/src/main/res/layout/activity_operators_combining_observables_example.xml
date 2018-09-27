@@ -24,7 +24,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_emitted_numbers"
+            android:id="@+id/tvEmittedNumbers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp" />
@@ -37,7 +37,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_result"
+            android:id="@+id/tvResult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp" />
@@ -52,28 +52,28 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/btn_merge_operator_using_a_list_of_observables_test"
+                    android:id="@+id/btnMergeOperatorUsingListOfObservablesTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start merge() w/List of Observables Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_merge_operator_using_multiples_observables_test"
+                    android:id="@+id/btnMergeOperatorUsingMultiplesObservablesTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start merge() w/Multiples Observables Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_merge_operator_using_multiples_observables_and_emit_an_error_test"
+                    android:id="@+id/btnMergeOperatorUsingMultiplesObservablesAndEmitAnErrorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start merge() w/Multiples Observables and Error Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_merge_delay_error__operator_test"
+                    android:id="@+id/btnMergeDelayErrorOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start mergeDelayError()Test"
@@ -81,42 +81,42 @@
 
 
                 <Button
-                    android:id="@+id/btn_mergewith_operator_test"
+                    android:id="@+id/btnMergeWithOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start mergeWith() Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_zip_operator_test"
+                    android:id="@+id/btnZipOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start zip() Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_zipwith_operator_test"
+                    android:id="@+id/btnZipWithOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start zipWith() Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_combinelatest_operator_test"
+                    android:id="@+id/btnCombineLatestOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start combineLatest() Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_switchonnext_operator_test"
+                    android:id="@+id/btnSwitchOnNextOperatorTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start switchOnNext() First Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_switchonnext_operator_test2"
+                    android:id="@+id/btnSwitchOnNextOperatorTest2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start switchOnNext() Second Test"

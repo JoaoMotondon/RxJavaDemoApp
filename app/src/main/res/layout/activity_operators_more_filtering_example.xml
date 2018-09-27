@@ -24,7 +24,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_emitted_numbers"
+            android:id="@+id/tvEmittedNumbers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp" />
@@ -37,7 +37,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_result"
+            android:id="@+id/tvResult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp" />
@@ -52,7 +52,7 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/btn_sample_operator_example"
+                    android:id="@+id/btnSampleOperatorExample"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"
@@ -60,35 +60,35 @@
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_sample_operator_with_observable_example"
+                    android:id="@+id/btnSampleOperatorWithObservableExample"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start Sample(Observable) Test "
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_throttle_last_example"
+                    android:id="@+id/btnThrottleLastExample"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start ThrottleLast() Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_throttle_first_test"
+                    android:id="@+id/btnThrottleFirstExample"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start ThrottleFirst() Test"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_debounce_operator_test"
+                    android:id="@+id/btnDebounceExample"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start Debounce() Test "
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/btn_debounce_operator_with_func_test"
+                    android:id="@+id/btnDebounceOperatorWithFuncTest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start Debounce(w/Func1) Test "
